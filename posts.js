@@ -7,8 +7,9 @@ class Post {
         this.comments = []; // to keep track of comments
     }
     
+    // displaying all the information about the comments
     displayAllComments() {
-        this.comments.forEach(this.format); // printing all the posts
+        this.comments.forEach(this.format); 
     }
 
     format(comment){

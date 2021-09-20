@@ -2,9 +2,10 @@ class ForumPage {
     constructor(title){
         this.title = title;
         this.posts = []; // all the posts on the forum page
-        this.polls = [];
+        this.polls = []; // all the polls on the forum page
     }
 
+    // displaying all the information about the posts
     displayAllPosts() {
         this.posts.forEach(this.format); // printing all the posts
     }

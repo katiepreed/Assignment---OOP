@@ -1,5 +1,6 @@
 const Post = require('./posts');
 
+// The poll class inherits from the post class
 class Poll extends Post{
     constructor(title, date, author, options){
         super(title, date, author);
